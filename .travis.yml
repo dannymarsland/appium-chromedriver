@@ -8,7 +8,7 @@ before_install:
   - rm -rf ~/.nvm
   - git clone https://github.com/creationix/nvm.git ~/.nvm
   - source ~/.nvm/nvm.sh
-  - nvm install 0.12
+  - nvm install 4
   # Chrome Driver needs an updated version of Chrome
   - wget -P /tmp/ https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
   - hdiutil attach /tmp/googlechrome.dmg
